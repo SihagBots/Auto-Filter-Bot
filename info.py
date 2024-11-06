@@ -95,7 +95,7 @@ VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 28800)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
 STICKERS_IDS = (
-    "CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME CAACAgQAAxkBAAELqxll8CcG-MZx9mIOXgaHSzLc9uyxswACaxQAAlrdEVOJDG3cIZuWLzQE"
+    "CAACAgQAAxkBAAENDdhnJJH1jbgJ3hzAXcIh3dxUKoiGWgACBQMAAnJxFyVYcSIunXgGjjYE"
 ).split()
 
 # boolean settings 
@@ -113,7 +113,7 @@ SPELL_CHECK = is_enabled("SPELL_CHECK", True)
 SHORTLINK = is_enabled('SHORTLINK', False)
 
 
-PAYMENT_QR = environ.get('PAYMENT_QR', 'http://graph.org/file/cacbbea472e5a48ce0d64.jpg') #telegraph link of your QR code 
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://envs.sh/_hB.jpg') #telegraph link of your QR code 
 UPI_ID = environ.get('UPI_ID', 'SihagBots@apl') # Add your upi id here
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', False) #true if you want stream feature active in your bot
