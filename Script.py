@@ -8,9 +8,9 @@ class script(object):
 ★ Language: <a href=https://www.python.org>Python</a>
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: RK Bots
-★ Username: @Rk_botowner
-★ Update Channel : @Rkbotz"""
+    MY_OWNER_TXT = """★ Name: Sihag Bots
+★ Username: @SihagBotsOwner
+★ Update Channel : @SihagBots"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
@@ -20,12 +20,14 @@ class script(object):
 🚀 Bot Uptime: <code>{}</code>"""
 
     NEW_GROUP_TXT = """#NewGroup
+@SihagFilterBot
 Title - {}
 ID - <code>{}</code>
 Username - {}
 Total - <code>{}</code>"""
 
     NEW_USER_TXT = """#NewUser
+@SihagFilterBot
 ★ Name: {}
 ★ ID: <code>{}</code>"""
 
