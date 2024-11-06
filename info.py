@@ -117,7 +117,7 @@ PAYMENT_QR = environ.get('PAYMENT_QR', 'https://envs.sh/_hB.jpg') #telegraph lin
 UPI_ID = environ.get('UPI_ID', 'SihagBots@apl') # Add your upi id here
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', False) #true if you want stream feature active in your bot
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "") #if is_stream = true then add a channel id ex: -10026393639
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002350925123") #if is_stream = true then add a channel id ex: -10026393639
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
     exit()
