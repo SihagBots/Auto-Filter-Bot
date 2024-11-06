@@ -13,3 +13,5 @@ aiofiles
 speedtest-cli
 fuzzywuzzy
 python-Levenshtein
+requests
+telegraph 
